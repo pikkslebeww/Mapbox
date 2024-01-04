@@ -18,14 +18,11 @@ load_dotenv(dotenv_path)
 MONGODB_URI= os.environ.get("MONGODB_URI")
 DB_NAME = os.environ.get("DB_NAME")
 
-client = MongoClient (MONGODB_URI)
-db = client [DB_NAME]
+client = MongoClient ("mongodb+srv://noviansyahh2006:Jakmania1928@cluster0.z6ucths.mongodb.net/?retryWrites=true&w=majority")
+db = client.dbsparta_plus_week13
  
 app = Flask(__name__)
-password = 'Jakmania1928'
-cxn_str = f'mongodb+srv://noviansyahh2006:{password}@cluster0.z6ucths.mongodb.net/'
-client = MongoClient(cxn_str)
-db = client.dbsparta_plus_week13
+
 
 @app.route('/')
 def main():
