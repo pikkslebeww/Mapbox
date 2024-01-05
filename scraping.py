@@ -26,7 +26,7 @@ sleep(3)
 driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
 sleep(3)
 
-access_token = 'pk.eyJ1IjoibGluY3hsbiIsImEiOiJjbDluMHppMjIwMTR5NDBtejl3NjNueGdyIn0.DLAhnub2hn2okIq0gwCJEw'
+access_token = "pk.eyJ1IjoibGluY3hsbiIsImEiOiJjbDluMHppMjIwMTR5NDBtejl3NjNueGdyIn0.DLAhnub2hn2okIq0gwCJEw"
 long = -122.420679
 lat = 37.772537
 
